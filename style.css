@@ -86,7 +86,21 @@ img {
 .hero .contact-form {
   background-size: contain;
   background-position: center bottom;
-  height: 550px;
+  height: 100px;
+}
+
+.forms {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
 }
 
 /* Utility Classes */
