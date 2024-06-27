@@ -138,6 +138,42 @@ img {
   gap: 20px;
 }
 
+/* Footer */
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  line-height: 2.5;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-grid img {
+  padding: 10px;
+  max-width: 20%;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1100px;
